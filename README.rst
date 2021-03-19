@@ -7,12 +7,10 @@ This repository is based on the [Kenneth Reitz's repo](https://github.com/navdee
 
 Instructions to run the solution
 -------------
+
 docker build -t wiki_insight .
+
 docker run wiki_insight
-
-####Inline code
-
-`$ npm install marked`
 
 License
 -------------
