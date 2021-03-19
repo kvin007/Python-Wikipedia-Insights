@@ -8,6 +8,7 @@ class ReportPrepoc:
         self._df = pd.read_csv(file_path, sep=' ', names=['domain_code', 'page_title', 'count_views', 'total_response_size'])
         self._is_processed = False
 
+
     def _get_language_and_domain(self, domain_code):
         code_parts = domain_code.split('.')
         language = code_parts[0]

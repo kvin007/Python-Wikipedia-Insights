@@ -11,7 +11,6 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezoneCO
 
 COPY ./wiki_insight ./wiki_insight
 COPY ./docs ./docs
+COPY main.py main.py
 
-
-
-CMD ["python", "-m", "wiki_insight" ]
+CMD ["python", "-u", "main.py" ]
