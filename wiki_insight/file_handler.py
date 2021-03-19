@@ -27,6 +27,7 @@ class FileHandler:
             file_name = os.path.basename(url)
             # Get the compressed file directory
             compressed_dir = self._get_path(file_name)
+            print(compressed_dir)
             dirs.append(compressed_dir)
             # Writes the downloaded file into the path
             with open(compressed_dir, 'wb') as fw:
