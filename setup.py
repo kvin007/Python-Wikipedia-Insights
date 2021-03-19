@@ -13,7 +13,7 @@ setup(
     long_description=readme,
     author='Kevin Pereda',
     author_email='kevin.pereda26@gmail.com',
-    url='https://github.com/',
+    url='https://github.com/kvin007/wiki_insight',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
